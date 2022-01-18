@@ -1,0 +1,1 @@
+curl -s -H "Host: service_b.example.com" http://localhost:8080/
