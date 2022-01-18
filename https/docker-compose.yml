@@ -1,13 +1,16 @@
 version: '3.9'
 
 services:
-  proxy:
+  proxys:
     image: nginx:1-alpine
     volumes:
       - ./nginx_configs/:/etc/nginx/conf.d/:ro
       - ./proxy/:/usr/share/nginx/html/:ro
+      - ./ssl/:/usr/share/ssl:ro
+      # - ./includes/:/usr/share/includes:ro
     ports:
-      - "8080:80"
+    - 8080:8080
+    - 8082:8082
     networks:
       - internal-network
 
