@@ -7,7 +7,7 @@ services:
       - ./nginx_configs/:/etc/nginx/conf.d/:ro
       - ./proxy/:/usr/share/nginx/html/:ro
     ports:
-      - "8080:80"
+      - "8080:8080"
     networks:
       - internal-network
 
