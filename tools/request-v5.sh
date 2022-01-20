@@ -10,7 +10,7 @@ URL='https://localhost:8082'
 # DOMAIN='https://reversenginx-v3-nginx8082-passthrough-reverse-proxy.mycluster-mex01-b3c-4x16-18f5cff1396700a3eb11f3582dee8624-0000.mex01.containers.appdomain.cloud'
 # echo | openssl s_client -showcerts -servername $DOMAIN -connect $DOMAIN:443 2>/dev/null | openssl x509 -inform pem -noout -text
 # logs 
-oc logs -f reversenginx-v5-5f5779c4c5-x7vcr --tail=50
+oc logs -f reversenginx-v5-58f558f57b-bx4sn --tail=50
 
 # 2022/01/20 11:59:08 [error] 24#24: *1128 "/usr/share/nginx/html/nginx_status/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /nginx_status/ HTTP/1.1", host: "localhost:8080"
 # reversenginx-v5-nginx8080
