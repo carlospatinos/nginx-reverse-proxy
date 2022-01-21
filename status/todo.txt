@@ -1,0 +1,21 @@
+host name -> midominio.com 
+usar un certificado 
+
+escribir en un log del nginx -> como le llega al open shift en ese request (hostname)
+api.consubanco.com 
+checar que el domnio llegue como debo
+checar headers 
+
+api.consubanco.com 
+
+Checar el certificado del A (netscaler)
+smular nginxA -> ruta -> nginxB ->
+
+
+la ruta edge regrese el certificado -> 
+sin ligarle un dominio -> 
+
+common name 
+
+hacer funcionar el del edge 
+
